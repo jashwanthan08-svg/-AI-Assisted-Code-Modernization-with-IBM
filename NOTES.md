@@ -8,7 +8,7 @@ I have checked all the files in the repo and how they are linked with each other
 
 ## 
 
-The script calculates pct (percentage difference) in a loop for each column, but then the conclusion just prints literal text like "km\_since\_service (+60.8%) ... " typed directly, rather than referencing the actual calculated pct value. It looks like the conclusion follows from the data, but it's decorative — if the CSV changed, that text wouldn't update.
+Bob only found the 3 tests failing but not the need for another test for the crashing of task when there is a missing reading
 
 
 
